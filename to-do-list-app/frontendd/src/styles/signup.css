@@ -1,0 +1,140 @@
+
+.login-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.login-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-container-box2 {
+    width: 30%;
+    height: auto;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding-bottom: 30px;
+}
+
+.login-container-box2-sub {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.login-container-box2-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.form-label-login {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.outer-input-class {
+    display: flex;
+    flex-direction: row;
+    background-color: #e7e7e7;
+}
+
+.img-box-login {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 15px;
+}
+
+.form-input-login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #e7e7e7;
+    outline: none;
+}
+
+.pre-btn-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-button-login {
+    padding: 10px 20px;
+    background-color: #07689f;
+    color: #fff;
+    width:  100%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-button-login:hover {
+    background-color: #54b2e8;
+}
+
+.no-account {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.already-account-login {
+    width: 50%;
+    height: auto;
+}
+
+.already-account-login button {
+    padding: 10px 20px;
+    background-color: #07689f;
+    color: #fff;
+    width:  100%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.already-account-login button:hover {
+    background-color: #54b2e8;
+}
+
+@media screen and (max-width: 700px) {   
+    .login-container-box2 {
+        width: 90%;
+        height: auto;
+    }
+}
