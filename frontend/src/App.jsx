@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='w-full' >
         To Do List App
       </div>
     </>
